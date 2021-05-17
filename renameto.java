@@ -1,0 +1,1 @@
+package rename;import java.io.File;public class renameto {public static void main(String[] args) {String a="E:/";int b=4;File f=new File(a);File[] fq=f.listFiles();String kl="";;for(File ac:fq){kl=ac.getName();kl=kl.substring(b);ac.renameTo(new File(a+kl));}}}
